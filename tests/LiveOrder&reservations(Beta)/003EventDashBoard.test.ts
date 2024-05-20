@@ -64,7 +64,7 @@ test.describe('use the same authentication mechanism',async()=>{
     
         // await context.tracing.stop({ path: 'trace0.zip' });
     })
-    test("003_Event_Dashboard_002 | Verify the App directory's apps shows in dropdown lists are working", async ({ EventdashboardPage, page,ReservationPage,AppsPage }) => {
+    test.only("003_Event_Dashboard_002 | Verify the App directory's apps shows in dropdown lists are working", async ({ EventdashboardPage, page,ReservationPage,AppsPage }) => {
     
        
         await test.step('Navigate to apps directory', async() =>{ 
